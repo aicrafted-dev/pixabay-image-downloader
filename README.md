@@ -24,23 +24,16 @@ JSON 数据处理
 
 📦 安装与使用
 1. 克隆项目
-bash
 git clone https://github.com/你的用户名/pixabay-image-downloader.git
 cd pixabay-image-downloader
 2. 安装依赖
-bash
 pip install requests
 3. 获取 API 密钥
 访问 Pixabay API 文档，注册账号后即可获取你的专属 API 密钥。
-
 4. 配置并运行
 在 pixabay_moon.py 中替换你的 API 密钥：
-
-python
 API_KEY = "你的API密钥"  # 替换为实际密钥
 运行脚本：
-
-bash
 python pixabay_moon.py
 5. 查看结果
 下载的图片会自动保存在项目目录下的 moon_photos/ 文件夹中。
@@ -56,7 +49,7 @@ pixabay-image-downloader/
 □ 多线程并发下载，提升速度
 □ 将图片信息（标题、作者、点赞数）保存为 CSV 文件
 □ 添加图形用户界面（GUI）
-⚠️ 注意事项
+⚠️注意事项
 请遵守 Pixabay API 的使用条款，控制请求频率
 
 免费 API 有每日请求次数限制，请合理使用
